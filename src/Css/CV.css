@@ -1,0 +1,80 @@
+/* CV.css */
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cv-header {
+  text-align: center;
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+}
+
+.cv-contact,
+.cv-education,
+.cv-experience,
+.cv-skills,
+.cv-footer {
+  margin-bottom: 20px;
+}
+
+.cv-section {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.cv-section h2 {
+  color: #333;
+}
+
+.cv-section p {
+  margin: 0;
+  color: #555;
+}
+
+.cv-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cv-section ul li {
+  margin-bottom: 5px;
+}
+
+.cv-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.cv-button {
+  margin-top: 20px;
+}
+
+/* Modal specific styles */
+.modal-header {
+  background-color: #3498db;
+  color: #fff;
+  border-bottom: 0;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+/* AddCvModal specific styles */
+.add-cv-modal textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.add-cv-modal .form-group {
+  margin-bottom: 15px;
+}
